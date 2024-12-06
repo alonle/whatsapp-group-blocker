@@ -27,8 +27,8 @@ Created by [alonle](https://github.com/alonle) -  😌
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
-cd [your-repo-name]
+git clone https://github.com/alonle/whatsapp-group-blocker.git
+cd whatsapp-group-blocker
 ```
 
 2. Install dependencies:
@@ -119,7 +119,7 @@ Feel free to submit issues and enhancement requests!
 
 ## License
 
-[Your chosen license]
+MIT
 
 ## Disclaimer
 
