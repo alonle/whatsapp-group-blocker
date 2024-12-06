@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "description": "WhatsApp bot to automatically delete messages from specific users in groups",
+  "scripts": {
+    "start": "node bot.js",
+    "start:daemon": "bash run-bot.sh",
+    "logs:output": "tail -f /tmp/whatsapp-bot-logs/latest_output.log",
+    "logs:error": "tail -f /tmp/whatsapp-bot-logs/latest_error.log",
+    "stop": "pkill -f 'node bot.js'"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "github:alechkos/whatsapp-web.js#fix-delete-msg"
+  }
+}
