@@ -1,0 +1,12 @@
+{
+    "targetGroups": [
+        "הפועל ירושלים • שיח פתוח",
+        "test group name"
+    ],
+    "targetUsers": [
+        "972585553333",
+        "972050555555"
+    ],
+    "saveDeletedMessages": true,
+    "logFile": "deleted_messages.log"
+}
